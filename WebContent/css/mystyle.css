@@ -1,0 +1,47 @@
+body {
+	background: url("images/ncm.jpg") no-repeat scroll 615px 20px;
+	background-size: 120px 130px;
+	border: 1px solid #808080;
+    font-family: "Times New Roman",serif;
+    font-size: 11pt;
+    line-height: 25px;
+    margin: 10px;
+    padding: 0 96px 96px 96px;
+    width: 630px;
+}
+
+h3 {
+	font-size: 12pt;
+    margin-bottom: 5px;;
+}
+
+#mainHeader {
+    color: #808080;
+    font-size: 12pt;
+    line-height: 19px;
+    margin: 30px 0 15px;
+    text-align: center;
+}
+
+#content ul, dl {
+	list-style-type: disc;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#content li {
+    padding-left: 10px;
+}
+
+#content dd:before{ 
+	content:"-"; position:relative; left:-20px;
+}
+
+#content dd{ 
+	margin-left: 70px;
+}
+
+.ibStyle {
+	font-style:italic;
+	font-weight:bold;
+}
